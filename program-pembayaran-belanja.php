@@ -2,6 +2,7 @@
 <html lang="id">
 <head>
     <meta charset="UTF-8">
+    <!-- Ini adalah judul aplikasi pembayaran belanja -->
     <title>Pembayaran Belanja</title>
     <style>
         body {
@@ -64,6 +65,7 @@
 
     <div class="result">
         <?php
+// Proses perhitungan pembayaran belanja
         if (isset($_POST['hitung'])) {
             $jumlah = $_POST['jumlah'];
             $harga = $_POST['harga'];
@@ -91,3 +93,4 @@
     </div>
 </body>
 </html>
+
